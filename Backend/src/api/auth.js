@@ -1,5 +1,5 @@
 import api from "./axios";
-import { saveTokens } from "../utils/token";
+import { saveTokens } from "../api/token";
 
 export const login = async (email, password) => {
   const res = await api.post("/auth/login", { email, password });

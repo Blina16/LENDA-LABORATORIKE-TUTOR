@@ -1,5 +1,5 @@
 import { createContext, useEffect, useState } from "react";
-import { getAccessToken, clearTokens } from "../utils/token";
+import { getAccessToken, clearTokens } from "../api/token";
 import api from "../api/axios";
 
 export const AuthContext = createContext();
